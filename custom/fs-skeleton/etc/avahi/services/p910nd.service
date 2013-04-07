@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone='no'?><!--*-nxml-*-->
+<!DOCTYPE service-group SYSTEM "avahi-service.dtd">
+<service-group>
+<name replace-wildcards="yes">HP PhotoSmart C4480 @ %h</name>
+<service protocol="any">
+<type>_pdl-datastream._tcp</type>
+<port>9100</port>
+<txt-record>product=(HP Photosmart C4400 series)</txt-record>
+</service>
+</service-group>
+
